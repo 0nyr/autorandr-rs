@@ -39,7 +39,7 @@ See https://kdl.dev for more information.
 *layout.matches*
 	This node specifies which monitors, by _alias_, must be connected to
 	apply this layout.
-	It accepts the list of monitor _aliases_ as a sequence of postional
+	It accepts the list of monitor _aliases_ as a sequence of positional
 	parameters.
 
 *layout.monitor*

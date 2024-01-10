@@ -1,0 +1,15 @@
+[monitors.Work-Left-IMT]
+product = "HP E27 G5"
+serial = "CNC3260W4W"
+
+[configurations.Lab-IMT]
+monitors = ["eDP-1", "Work-Left-IMT"]
+mode = "2560x1440"
+[configurations.Lab-IMT.Work-Left-IMT]
+position = "0x0"
+primary = false
+mode = "1920x1080"
+[configurations.Lab-IMT.eDP-1]
+mode = "2560x1440"
+position = "1920x0"
+primary = true
